@@ -12,7 +12,7 @@ $(document).ready(function(){
     })
     $('ol').on('click', 'li', function(){
         $(this).toggle('strike-through');
-        //$(this).toggle('line-through');
+        $(this).toggle('line-through');
     })
 
  
